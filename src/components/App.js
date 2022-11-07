@@ -1,11 +1,11 @@
 import React from "react";
-import SideBar from "./SideBar";
+import CardsRow from "./CardsRow";
 import ContentWrapper from './ContentWrapper';
 function App() {
   return (
     <React.Fragment>
       	<div id="wrapper">
-          <SideBar />
+          <CardsRow />
         </div>
     </React.Fragment>
   );

@@ -27,7 +27,7 @@ let totalUsers = {
 
 let cartProps = [productsInDB, totalcategories, totalUsers];
 
-function ContentRow(){
+function ContentRowCards(){
     return (
     
         <div className="row">
@@ -42,4 +42,4 @@ function ContentRow(){
     )
 }
 
-export default ContentRow;
+export default ContentRowCards;
